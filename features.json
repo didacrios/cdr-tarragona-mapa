@@ -9,7 +9,8 @@
         "stroke-opacity": 1,
         "fill": "#ff4141",
         "fill-opacity": 0.3,
-        "name": "part-alta"
+        "name": "part-alta",
+        "CDR": "Part Alta"
       },
       "geometry": {
         "type": "Polygon",
@@ -87,7 +88,8 @@
         "stroke-opacity": 1,
         "fill": "#ac1ff0",
         "fill-opacity": 0.3,
-        "name": "centre"
+        "name": "centre",
+        "CDR": "Tarragona Centre"
       },
       "geometry": {
         "type": "Polygon",
@@ -181,7 +183,8 @@
         "stroke-opacity": 1,
         "fill": "#fbff51",
         "fill-opacity": 0.3,
-        "name": "eixample"
+        "name": "eixample",
+        "CDR": "Eixample Tarragona"
       },
       "geometry": {
         "type": "Polygon",
@@ -411,7 +414,8 @@
         "stroke-opacity": 1,
         "fill": "#faa005",
         "fill-opacity": 0.3,
-        "name": "francoli-joan23"
+        "name": "francoli-joan23",
+        "CDR": "Francolí - Joan23"
       },
       "geometry": {
         "type": "Polygon",
@@ -485,7 +489,8 @@
         "stroke-opacity": 1,
         "fill": "#22b200",
         "fill-opacity": 0.3,
-        "name": "spisp"
+        "name": "spisp",
+        "CDR": "Sant Pere i Sant Pau"
       },
       "geometry": {
         "type": "Polygon",
@@ -695,7 +700,8 @@
         "stroke-opacity": 1,
         "fill": "#5f8eff",
         "fill-opacity": 0.3,
-        "name": "part-baixa"
+        "name": "part-baixa",
+        "CDR": "Part Baixa"
       },
       "geometry": {
         "type": "Polygon",
@@ -821,7 +827,8 @@
         "stroke-opacity": 1,
         "fill": "#e37b00",
         "fill-opacity": 0.3,
-        "name": "llevant"
+        "name": "llevant",
+        "CDR": "Tarragona Llevant"
       },
       "geometry": {
         "type": "Polygon",
