@@ -73,7 +73,7 @@ var styles = {
       width: 2
     }),
     fill: new ol.style.Fill({
-      color: '#ac1ff0ff'
+      color: 'rgba(172, 31, 240, 0.3)'
     })
   }),
 };
