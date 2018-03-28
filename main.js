@@ -1533,3 +1533,31 @@ var map = new ol.Map({
     zoom: 12
   })
 });
+
+var element = document.getElementById('cdrpopup');
+
+var popup = new ol.Overlay({
+  element: element,
+  positioning: 'bottom-center',
+  stopEvent: false
+});
+map.addOverlay(popup);
+
+// display popup on click
+map.on('click', function(evt) {
+    var feature = map.forEachFeatureAtPixel(evt.pixel,
+        function(feature, layer) {
+          return feature;
+        });
+    if (feature) {
+      popup.setPosition(evt.coordinate);
+      jQuery(element).popover({
+        'placement': 'top',
+        'html': true,
+        'content': `<h2>CDR ` + feature.get('CDR') + `</h2> <a href="`+ feature.get('link') +`">Més informació</a>`
+      });
+      jQuery(element).popover('show');
+    } else {
+      jQuery(element).popover('destroy');
+    }
+  });
