@@ -6,7 +6,7 @@ var image = new ol.style.Circle({
 });
 
 var styles = {
-  'part-alta': new ol.style.Style({
+  'cdr-part-alta': new ol.style.Style({
     stroke: new ol.style.Stroke({
       color: 'rgba(182, 0, 0, 1)',
       lineDash: [2],
@@ -16,7 +16,7 @@ var styles = {
       color: 'rgba(255, 65, 65, 0.3)'
     })
   }),
-  'francoli-joan23': new ol.style.Style({
+  'cdr-francoli-joan-xxiii': new ol.style.Style({
     stroke: new ol.style.Stroke({
       color: 'rgba(250, 160, 5, 1)',
       lineDash: [2],
@@ -26,7 +26,7 @@ var styles = {
       color: 'rgba(250, 160, 5, 0.3)'
     })
   }),
-  'llevant': new ol.style.Style({
+  'cdr-llevant': new ol.style.Style({
     stroke: new ol.style.Stroke({
       color: 'rgba(161, 87, 0, 1)',
       lineDash: [2],
@@ -36,7 +36,7 @@ var styles = {
       color: 'rgba(227, 123, 0, 0.3)'
     })
   }),
-  'spisp': new ol.style.Style({
+  'cdr-sant-pere-i-sant-pau': new ol.style.Style({
     stroke: new ol.style.Stroke({
       color: 'rgba(30, 146, 3, 1)',
       lineDash: [2],
@@ -56,7 +56,7 @@ var styles = {
       color: 'rgba(95, 142, 255, 0.3)'
     })
   }),
-  'eixample': new ol.style.Style({
+  'cdr-eixample': new ol.style.Style({
     stroke: new ol.style.Stroke({
       color: '#f6d02a',
       lineDash: [2],
@@ -66,14 +66,14 @@ var styles = {
       color: 'rgba(251, 255, 81, 0.3)'
     })
   }),
-  'centre': new ol.style.Style({
+  'cdr-centre': new ol.style.Style({
     stroke: new ol.style.Stroke({
       color: '#8a1cbf',
       lineDash: [2],
       width: 2
     }),
     fill: new ol.style.Fill({
-      color: 'rgba(172, 31, 240, 0.3)'
+        color: 'rgba(172, 31, 240, 0.3)'
     })
   }),
 };
